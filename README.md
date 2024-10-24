@@ -75,3 +75,8 @@ Response:
   "status": "success"
 }
 ```
+
+After making a translation request, the user can see the following log in the terminal where the Flask app is running:
+```yaml
+[2024-10-24 10:18:13,031] INFO in app: Request: 'Hola, ¿cómo estás?', Language: cached, Source: cache, Response time: 0.0031 seconds
+```
